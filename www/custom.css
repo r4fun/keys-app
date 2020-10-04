@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+h1 {
+  font-family: 'Alegreya', serif;
+  font-size: 84px;
+}
+
+.compartment {
+  border: 3px solid orange;
+  position: relative;
+  border-radius: 8px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  font-family: 'Fira Sans', sans-serif;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.compartment-label {
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 22px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+  height: 35px;
+  background-color: orange;
+  border: 3px solid orange;
+  text-align: center;
+  border-radius: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
